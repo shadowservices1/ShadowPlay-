@@ -1,6 +1,73 @@
-<!-- Botón flotante de WhatsApp con mensaje automático – ShadowPlaySERVICES® -->
-<a href="https://wa.me/5493571596776?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20edici%C3%B3n%20de%20ShadowPlaySERVICES%C2%AE." 
-   target="_blank"
-   style="position:fixed; bottom:20px; right:20px; background-color:#25D366; color:white; border-radius:50px; padding:14px 20px; font-size:16px; text-decoration:none; font-weight:bold; font-family:sans-serif; box-shadow:0 4px 10px rgba(0,0,0,0.4); z-index:9999;">
-    Contacto WhatsApp
-</a>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ShadowPlaySERVICES®</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin: 0.5em 0;
+    }
+
+    p {
+      font-size: 1.2em;
+      max-width: 90%;
+    }
+
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      padding: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.4);
+      text-decoration: none;
+      font-size: 24px;
+      z-index: 1000;
+    }
+
+    .whatsapp-float:hover {
+      background-color: #1ebe57;
+    }
+
+    .icon {
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Bienvenido a ShadowPlaySERVICES®</h1>
+  <p>Producción de contenido, edición avanzada y narrativa de alto nivel. Al servicio de creadores.</p>
+
+  <!-- Botón flotante de WhatsApp -->
+  <a
+    href="https://wa.me/5493571596776
+    class="whatsapp-float"
+    target="_blank"
+    aria-label="Contacto por WhatsApp"
+    title="Contáctanos por WhatsApp"
+  >
+    🟢
+  </a>
+
+</body>
+</html>
